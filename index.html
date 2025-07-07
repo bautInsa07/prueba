@@ -1,11 +1,66 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Stylish</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
-  
+  <header>
+    <div class="cabecera-superior">
+      <span>9:41</span>
+      <img src="./img/logo.jpg" alt="Stylish Logo" class="logo">
+      <div class="icono-usuario"><i class="fas fa-user"></i></div>
+    </div>
+    <div class="barra-busqueda">
+      <input type="text" placeholder="Buscar cualquier producto...">
+    </div>
+  </header>
+  <main>
+    <section class="categorias">
+      <h2>Todas las categorías destacadas</h2>
+      <div class="lista-categorias">
+        <div class="categoria">Botines</div>
+        <div class="categoria">Camisetas</div>
+        <div class="categoria">Pantalones</div>
+        <div class="categoria">Medias</div>
+        <div class="categoria">Pelotas</div>
+      </div>
+    </section>
+    <section class="banner">
+      <img src="./img/messi.jpg">
+      <button class="comprar-ahora">Comprar ahora</button>
+    </section>
+    <section class="ofertas">
+      <h2>Oferta del Día</h2>
+      <div class="elementos-oferta">
+        <div class="oferta">
+          <img src="./img/botines.jpg">
+          <p>botines</p>
+          <span>$1M</span>
+        </div>
+        <div class="oferta">
+          <img src="./img/camiseta.png">
+          <p>camiseta de Messi</p>
+          <span>$500K</span>
+        </div>
+      </div>
+      <button class="ver-todo">Ver todo</button>
+    </section>
+    <section class="ofertas-especiales">
+      <h2>Ofertas Especiales</h2>
+      <img src="./img/conjunto.jpeg">
+      <button class="visitar-ahora">Visitar ahora</button>
+    </section>
+  </main>
+  <nav class="navegacion-inferior">
+    <a href="#"><i class="fas fa-home"></i> Inicio</a>
+    <a href="#"><i class="fas fa-heart"></i> Lista de deseos</a>
+    <a href="#"><i class="fas fa-search"></i> Buscar</a>
+    <a href="#"><i class="fas fa-cog"></i> Configuración</a>
+  </nav>
 </body>
 </html>
